@@ -54,6 +54,7 @@ options = {
         'lspages' : getExecutabblesForProccess,
         'lsmem' : getMemoryForProccess
 }
+
 def main():
         secondArg = None
         if len(sys.argv) > 2:
